@@ -31,14 +31,14 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: "12878172b63280709a1ad4030a6e476e",
   },
 
   // plugin configuration (optional)
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: "12878172b63280709a1ad4030a6e476e",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
@@ -57,7 +57,7 @@ const CONFIG = {
     enable: true,
     config: {
       repo: "ds5105119/blogs",
-      "comment": "og:title",
+      "issue-term": "og:title",
       label: "💬 댓글",
     },
   },
