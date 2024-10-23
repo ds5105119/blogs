@@ -57,7 +57,7 @@ const CONFIG = {
     enable: true,
     config: {
       repo: "ds5105119/blogs",
-      "issue-term": "og:title",
+      "comment": "og:title",
       label: "💬 댓글",
     },
   },
