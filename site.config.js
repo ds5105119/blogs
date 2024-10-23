@@ -38,7 +38,7 @@ const CONFIG = {
   googleAnalytics: {
     enable: false,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+      measurementId: "12878172b63280709a1ad4030a6e476e",
     },
   },
   googleSearchConsole: {
